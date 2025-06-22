@@ -57,11 +57,7 @@ const Abstract = styled.p`
   }
 
   @media ${QUERIES.laptopAndUp} {
-    display: revert;
-    -webkit-box-orient: revert;
-    -webkit-line-clamp: revert;
-    text-overflow: revert;
-    overflow: revert;
+    -webkit-line-clamp: 10;
   }
 `;
 
