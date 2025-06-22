@@ -67,11 +67,10 @@ const StoryList = styled.div`
   display: flex;
   flex-direction: column;
 
-  gap: 16px;
-
-  > :not(:first-child) {
+  & > :not(:first-child) {
     border-top: solid 1px var(--color-gray-300);
     padding-top: 16px;
+    margin-top: 16px;
   }
 `;
 
